@@ -1,0 +1,32 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 107px 307px;
+    text-align: center;
+    background-image: url('../images/donation2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(243, 250, 231);
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.nav-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    border-top: 20px;
+    border-right: 374px;
+    border-left: 375px;
+    color: #FFFFFF;
+}
+
+.button-section{
+    background: #FF5959;
+border-radius: 5px;
+}
