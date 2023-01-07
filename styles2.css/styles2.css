@@ -5,10 +5,12 @@
 nav {
     padding: 107px 307px;
     text-align: center;
-    background-image: url('../images/donation2.jpg');
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.438) 20%,
+    rgba(32, 4, 4, 0.811)), url('../images/donation2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(243, 250, 231);
+    background-size: cover;
 }
 
 .nav-title {
@@ -26,7 +28,58 @@ nav {
     color: #FFFFFF;
 }
 
-.button-section{
+.button-section {
     background: #FF5959;
-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Donate section styles */
+.donate {
+    text-align: center;
+
+}
+
+.donate-title {
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    border-top: 130px;
+}
+
+.donate-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    border-top: 20px;
+    padding-bottom: 80px;}
+
+
+ul .money-amount{
+    list-style: none;
+    display: inline;
+    font-weight: 700;
+font-size: 30px;
+    padding: 44px 25px;
+    border-top: 50px;
+    border-left: 22px;
+}
+.money-amount-special{
+    list-style: none;
+    display: inline;
+    font-weight: 700;
+font-size: 30px;
+    padding: 44px 25px;
+    border-top: 50px;
+    border-left: 22px;background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 2px;}
+/* .donate input[type="text"]{ */
+
+
+.donate-section{
+    padding-bottom: 60px;
+}
+.option{
+    border: 0px;
+    padding-bottom: 39.5px;
 }
